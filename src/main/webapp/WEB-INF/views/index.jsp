@@ -12,15 +12,47 @@
     <!-- Create a form which will have text boxes for Note ID, title, content and status along with a Send
          button. Handle errors like empty fields -->
          <form action="saveNote" method="post" name="noteForm">
-         Note Id: <input name="noteId" type="text"><br/>
-         Note Title: <input name="noteTitle" type="text"><br/>
-         Note Content: <input name="noteContent" type="text"><br/>
-         Note Status: <input name="noteStatus" type="text"><br/>
+         <center>
+         <table>
+         <tr><td>
+         Note Id:  </td> <td>
+         <input name="noteId" type="text"><br/>
+           </td> </tr>
+         <tr><td>
+         Note Title:
+           </td> <td>
+           <input name="noteTitle" type="text"><br/>
+         </td> </tr>
+                  <tr><td>
+         Note Content:
+           </td> <td>
+          <input name="noteContent" type="text"><br/>
+          </td></tr>
+                  <tr><td>
+         Note Status:
+           </td> <td>
+           <input name="noteStatus" type="text"><br/>
+          </td></tr>
+                   </td><tr><td>
          <input name="submitBtn" type="submit">
+                </td>  </tr>
+                  </table>
+                  </center>
          </form>
 
     <!-- display all existing notes in a tabular structure with Id, Title,Content,Status, Created Date and Action -->
+        <center>
+
     <table>
+    <thead>
+             <tr>
+                <th>#ID</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Status</th>
+                <th>CreatedAt</th>
+             </tr>
+          </thead>
     <tbody>
 
     <c:forEach var="note" items="${notes}" varStatus="status">
@@ -41,5 +73,7 @@
     </c:forEach>
     </tbody>
     </table>
+        </center>
+
 </body>
 </html>

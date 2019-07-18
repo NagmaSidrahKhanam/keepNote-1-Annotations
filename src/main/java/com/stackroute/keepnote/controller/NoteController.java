@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  * any POJO class as a controller so that Spring can recognize this class as a Controller
  * */
 
-@Controller	
+@Controller
 public class NoteController {
 	/*
 	 * From the problem statement, we can understand that the application
