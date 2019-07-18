@@ -1,6 +1,9 @@
 package com.stackroute.keepnote.model;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 /*
  * The class "Note" will be acting as the data model for the Note data in the ArrayList.
@@ -13,6 +16,12 @@ public class Note {
 	 * setters for the fields. The value of createdAt should not be accepted from
 	 * the user but should be always initialized with the system date
 	 */
+	int NoteId;
+	String NoteTitle;
+	String NoteContent;
+	String NoteStatus;
+	DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+	LocalDateTime CreatedAt = LocalDateTime.now();
 
 	public Note() {
 	}
@@ -20,44 +29,51 @@ public class Note {
 	/* All the getters/setters definition should be implemented here */
 
 	public int getNoteId() {
-		return 0;
-
+		return NoteId;
 	}
 
-	public void setNoteId(int intid) {
-
+	public void setNoteId(int noteId) {
+		NoteId = noteId;
 	}
 
 	public String getNoteTitle() {
-		return null;
+		return NoteTitle;
 	}
 
-	public void setNoteTitle(String string) {
-
+	public void setNoteTitle(String noteTitle) {
+		NoteTitle = noteTitle;
 	}
 
 	public String getNoteContent() {
-		return null;
+		return NoteContent;
 	}
 
-	public void setNoteContent(String string) {
-
+	public void setNoteContent(String noteContent) {
+		NoteContent = noteContent;
 	}
 
 	public String getNoteStatus() {
-		return null;
+		return NoteStatus;
 	}
 
-	public void setNoteStatus(String string) {
+	public void setNoteStatus(String noteStatus) {
+		NoteStatus = noteStatus;
+	}
 
+	public DateFormat getDateFormat() {
+		return dateFormat;
+	}
+
+	public void setDateFormat(DateFormat dateFormat) {
+		this.dateFormat = dateFormat;
 	}
 
 	public LocalDateTime getCreatedAt() {
-		return null;
+		return CreatedAt;
 	}
 
-	public void setCreatedAt(LocalDateTime localdatetime) {
-
+	public void setCreatedAt(LocalDateTime createdAt) {
+		CreatedAt = createdAt;
 	}
 
 	/* Override the toString() method */

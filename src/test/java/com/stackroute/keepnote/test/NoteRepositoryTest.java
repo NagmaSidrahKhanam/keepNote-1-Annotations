@@ -1,5 +1,5 @@
 package com.stackroute.keepnote.test;
-
+import com.stackroute.keepnote.repository.NoteRepository;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
