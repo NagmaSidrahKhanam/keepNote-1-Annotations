@@ -1,3 +1,5 @@
-/home/nagma/Documents/KeepNote-Step1-Boilerplate/src/main/java/com/stackroute/keepnote/controller/NoteController.java
-/home/nagma/Documents/KeepNote-Step1-Boilerplate/src/main/java/com/stackroute/keepnote/repository/NoteRepository.java
-/home/nagma/Documents/KeepNote-Step1-Boilerplate/src/main/java/com/stackroute/keepnote/model/Note.java
+/home/nagma/Desktop/KeepNote1/src/main/java/com/stackroute/keepnote/repository/NoteRepository.java
+/home/nagma/Desktop/KeepNote1/src/main/java/com/stackroute/keepnote/configuration/MyAppInitializer.java
+/home/nagma/Desktop/KeepNote1/src/main/java/com/stackroute/keepnote/controller/NoteController.java
+/home/nagma/Desktop/KeepNote1/src/main/java/com/stackroute/keepnote/model/Note.java
+/home/nagma/Desktop/KeepNote1/src/main/java/com/stackroute/keepnote/configuration/ConfigurationClass.java

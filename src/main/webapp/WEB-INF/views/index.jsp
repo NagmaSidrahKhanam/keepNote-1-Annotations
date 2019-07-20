@@ -31,7 +31,10 @@
                   <tr><td>
          Note Status:
            </td> <td>
-           <input name="noteStatus" type="text"><br/>
+           Status: <select name="noteStatus">
+                       <option>Activated</option>
+                       <option>Deactivated</option>
+                    </select>
           </td></tr>
                    </td><tr><td>
          <input name="submitBtn" type="submit">

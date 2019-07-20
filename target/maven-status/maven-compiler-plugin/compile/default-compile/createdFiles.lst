@@ -1,3 +1,5 @@
-NoteController.class
+com/stackroute/keepnote/configuration/MyAppInitializer.class
+com/stackroute/keepnote/configuration/ConfigurationClass.class
+com/stackroute/keepnote/controller/NoteController.class
 com/stackroute/keepnote/model/Note.class
 com/stackroute/keepnote/repository/NoteRepository.class
